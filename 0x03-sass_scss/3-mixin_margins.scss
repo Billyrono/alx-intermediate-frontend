@@ -1,0 +1,12 @@
+@mixin h-margin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include h-margin(10px, 10px);
+}
+
+div {
+  @include h-margin(15px, 15px);
+}
